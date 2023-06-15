@@ -11,7 +11,7 @@ git clone git@github.com:agh-riscv/mtm_ppcu_vlsi_riscv.git
 ```
 or 
 ```bash
-https://github.com/agh-riscv/mtm_ppcu_vlsi_riscv.git
+git clone https://github.com/agh-riscv/mtm_ppcu_vlsi_riscv.git
 ```
 
 ## Environment initialization
