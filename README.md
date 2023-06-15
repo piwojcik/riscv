@@ -18,7 +18,7 @@ git clone git@github.com:agh-riscv/mtm_ppcu_vlsi_riscv.git
 ## Tools
 ### Software compilation
 ```bash
-cmake -Hsw -Bsw/build
+cmake -Ssw -Bsw/build
 cmake --build sw/build/ -j $(nproc)
 ```
 
