@@ -60,6 +60,7 @@ run_power_analysis.sh
 
 ### Standard cell library
 * DOC: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/documents/tcbn40lpbwp_200a
+* RLN: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/release_note
 * LIB: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/timing_power_noise/NLDM/tcbn40lpbwp_200a
 * VERILOG: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tcbn40lpbwp_200a
 
@@ -67,6 +68,9 @@ run_power_analysis.sh
 * DOC: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/documents/tpan40lpgv2od3_120a
 * LIB: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/timing_power_noise/NLDM/tpan40lpgv2od3_120a
 * VERILOG: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpan40lpgv2od3_120a
+
+### Pads
+* RLN: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/release_note/RN_TPBN45V_DS_150B.pdf
 
 ### Application notes
 * /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/application_notes
