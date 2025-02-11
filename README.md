@@ -7,11 +7,11 @@ mtm_ppcu_vlsi_riscv is a repository used during MTM PPCU VLSI classes.
 
 ## Project cloning
 ```bash
-git clone git@github.com:agh-riscv/mtm_ppcu_vlsi_riscv.git
+git clone git@github.com:asicsagh/mtm_ppcu_vlsi_riscv.git
 ```
 or 
 ```bash
-git clone https://github.com/agh-riscv/mtm_ppcu_vlsi_riscv.git
+git clone https://github.com/asicsagh/mtm_ppcu_vlsi_riscv.git
 ```
 
 ## Environment initialization
