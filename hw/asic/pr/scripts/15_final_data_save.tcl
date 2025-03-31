@@ -32,7 +32,6 @@ report_area -out_file $reportDir/15_area.rpt
 #------------------------------------------------------------------------------
 
 # Write delays to a Standard Delay Format (SDF) file
-# write_sdf -edges noedge -max_view WC_av -min_view BC_av $resultDir/${DESIGN}.sdf.gz
 write_sdf -edges noedge -max_view WCL_av -min_view BC_av \
   -version 3.0 \
   -recompute_delaycal \
