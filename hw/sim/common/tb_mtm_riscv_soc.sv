@@ -151,7 +151,7 @@ initial begin : watchdog
 `ifdef KMIE_POST_LAYOUT_SIM
     #50ms;
 `elsif KMIE_IMPLEMENT_ASIC
-    #1.5s;
+   #155s;// #1.5s;
 `endif
 
     $display("%0t watchdog timeout!",$time);

@@ -1,0 +1,26 @@
+
+#
+# Mnemonic Maps
+#
+mmap new  -reuse -name {Boolean as Logic} -radix %b -contents {{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}}
+mmap new  -reuse -name {Example Map} -radix %x -contents {{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}}
+
+array unset createdGroup
+array set createdGroup {}
+set id [waveform add -signals [subst  {
+	{[format {tb_mtm_riscv_soc.u_mtm_riscv_chip.gpio_dout[3:0]}]}
+	} ]]
+waveform hierarchy expand $id
+set id [waveform add -signals [subst  {
+	{[format {tb_mtm_riscv_soc.u_mtm_riscv_chip.u_soc.u_data_ram.u_ram.u_TS1N40LPB4096X32M4M.MEMORY[1023:0]}]}
+	} ]]
+waveform hierarchy expand $id
+set id2 [lindex [waveform hierarchy content $id] 0]
+waveform hierarchy collapse $id2
+
+waveform xview limits 0 155000000000000ps
+waveform delta load {-item cursor -value 62,561,779,242,175ps} {-item {TimeB TimeA} -value 38,165,396,072,175ps}
