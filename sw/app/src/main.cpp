@@ -21,7 +21,7 @@
 #include <libmisc/delay.hpp>
 
 void msleep(int ms) {
-    mdelay(ms);
+    udelay(ms);
 }
 
 // Tablica kodów Morse’a dla liter A–Z (bez polskich znaków)
